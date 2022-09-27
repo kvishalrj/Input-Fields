@@ -13,7 +13,7 @@
 
    
 
-[Click here to view live 🚀](https://mybonton.netlify.app/ "Street Style Landing Page")
+[Click here to view live 🚀](https://input-fields.netlify.app/ "Street Style Landing Page")
 
 ## Screenshot of the Project 👇
 ![](/Screenshot%202022-09-27%20at%2018-49-04%20table%20and%20form.png)
