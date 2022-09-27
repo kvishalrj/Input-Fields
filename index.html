@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table and form</title>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>roll no</th>
+                <th>class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>vishal</td>
+                <td>86</td>
+                <td>it</td>
+            </tr>
+            <tr>
+                <td>ravindra</td>
+                <td>94</td>
+                <td>it</td>
+            </tr>
+            <tr>
+                <td>antanu</td>
+                <td>1</td>
+                <td>it</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Registration Form</h1>
+    <form action="backend.php">
+        <table>
+            <tr>
+                <td>
+                    <label for="iName">Name:</label> 
+                </td>
+                <td>
+                    <input type="text" placeholder="Name" name="myName" id="iName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iPhone">Phone Number:</label> 
+                </td>
+                <td>
+                    <input type="phone" placeholder="9856******" name="myPhone" id="iPhone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iMail">Email Id:</label> 
+                </td>
+                <td>
+                    <input type="email" placeholder="example@gcom" name="myEmail" id="iMail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iPass">Password:</label> 
+                </td>
+                <td>
+                    <input type="password" placeholder="Password" name="myPass" id="iPass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="myGender" id="iMale"><label for="iMale">Male</label> 
+                    <input type="radio" name="myGender" id="iFemale"><label for="iFemale">Female</label> 
+                    <input type="radio" name="myGender" id="iOthers"><label for="iOthers">Others</label> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iDate">Date Of Birth:</label> 
+                </td>
+                <td>
+                    <input type="date" name="myDate" id="iDate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iAge">Age:</label> 
+                </td>
+                <td>
+                    <input type="number" placeholder="Age" name="myAge" id="iAge">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <input type="checkbox" name="myHobbies" checked id="iSing"><label for="iSing">Singing</label> 
+                    <input type="checkbox" name="myHobbies" id="iDance"><label for="iDance">Dancing</label> 
+                    <input type="checkbox" name="myHobbies" id="iPlay"><label for="iPlay">Playing</label> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iEdu">Educational Qualification:</label> 
+                </td>
+                <td>
+                    <select id="iEdu">
+                        <option name="myEdu" selected>10+2</option>
+                        <option name="myEdu">Graduation</option>
+                        <option name="myEdu">Post Graduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iAdd">Address:</label> 
+                </td>
+                <td>
+                    <textarea cols="20" rows="3" placeholder="Address" name="myAdd" id="iAdd"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
