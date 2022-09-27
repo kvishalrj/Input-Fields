@@ -2,7 +2,7 @@
 # Basic Input Fields💻
 ### Hey, I am [**Vishal**](https://www.linkedin.com/in/vishal-kumar-62146b230/) 🙂 
 ### This is  my 13th live Project project.
-### I made this project using ![HTML & CSS](https://img.shields.io/badge/HTML%20%26---CSS-blue)
+### I made this project using ![HTML](https://img.shields.io/badge/HTML%20----blue)
 
 ### Basically I make this project to learn what are the various types of input fields and their attributes can be used.
 
